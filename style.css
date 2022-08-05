@@ -1,0 +1,367 @@
+@font-face {
+  font-family: "ralewayregular";
+  src: url("/RalewayFonts/raleway-regular-webfont.woff") format("woff"),
+    url("/RalewayFonts/raleway-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ralewaybold";
+  src: url("/RalewayFonts/raleway-bold-webfont.woff2") format("woff2"),
+    url("/RalewayFonts/raleway-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z11lFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* SECTION 1 */
+.section1 {
+  background: #636c79;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  padding: 15px 55px 10px 70px;
+}
+.logo {
+  padding-left: 34px;
+}
+.list {
+  align-self: center;
+  color: white;
+  position: relative;
+  left: 252px;
+}
+.listItems {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-column-gap: 35px;
+}
+.listItem {
+  list-style-type: none;
+}
+.navButton {
+  align-self: center;
+}
+.smallButton {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #7b8087;
+  font-family: "Poppins";
+  width: 125px;
+  height: 31px;
+  cursor: pointer;
+}
+.image1 {
+  width: 450px;
+  height: 480px;
+}
+.sec1Bottom {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.sec1Left {
+  padding-left: 150px;
+}
+.sec1Right {
+  position: relative;
+  right: 46px;
+}
+.sec1Right h1 {
+  font-family: "ralewaybold";
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 23px;
+  font-size: xxx-large;
+}
+.sec1Right p {
+  font-family: "Poppins";
+  color: #e6e8e7;
+  padding-bottom: 40px;
+  line-height: 1.6;
+}
+.sec1Button {
+  font-family: "Poppins";
+  background-color: white;
+  width: 443px;
+  text-align: start;
+  border: 2px solid white;
+  height: 60px;
+}
+.sec1Button i {
+  padding-left: 8px;
+  padding-right: 5px;
+  position: relative;
+  top: 10px;
+}
+.sec1Button p {
+  position: relative;
+  left: 47px;
+  bottom: 12px;
+  color: #8e8f91;
+}
+.sec1Butt {
+  font-family: "Poppins";
+  height: 50px;
+  width: 156px;
+  position: relative;
+  right: 162px;
+  bottom: 9px;
+  border-radius: 1px;
+  border: 1px solid white;
+  background-color: #8bb7a2;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* SECTION 2 */
+.section2 {
+  padding-top: 100px;
+}
+.section2 h1 {
+  text-align: center;
+  font-family: "ralewaybold";
+  font-size: xxx-large;
+}
+.section2Mid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Poppins";
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.mid h3 {
+  font-size: xx-large;
+  padding-bottom: 5px;
+}
+.mid p {
+  color: #676767;
+  position: relative;
+  right: 20px;
+}
+.sec2Image {
+  text-align: center;
+}
+.image2 {
+  width: 1150px;
+  height: 580px;
+}
+
+/* SECTION 3 */
+.section3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section3 h1 {
+  text-align: center;
+  font-size: xxx-large;
+  font-family: "Raleway";
+}
+.section3Bottom {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-around;
+}
+.sec3Left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 133px;
+  padding-top: 47px;
+  padding-bottom: 20px;
+}
+.sec3Left h2 {
+  font-family: "ralewaybold";
+  font-size: 33px;
+}
+.sec3Left p {
+  font-family: "Poppins";
+  color: #676767;
+  line-height: 1.6;
+}
+.section3Butt {
+  font-family: "Poppins";
+  width: 150px;
+  height: 40px;
+  border-radius: 1px;
+  font-weight: bold;
+  background-color: #8bb7a2;
+  color: white;
+  border: 1px;
+  cursor: pointer;
+}
+.sec3Right {
+  padding-right: 170px;
+}
+.image3 {
+  width: 420px;
+  height: 380px;
+}
+
+/* SECTION 4 */
+.section4 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.section4Bottom {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-around;
+}
+.sec4Left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 47px;
+  padding-bottom: 20px;
+  position: relative;
+right: 70px;
+}
+.sec4Left h2 {
+  font-family: "ralewaybold";
+  font-size: 33px;
+}
+.sec4Left p {
+  font-family: "Poppins";
+  color: #676767;
+  line-height: 1.6;
+}
+.section4Butt {
+  font-family: "Poppins";
+  width: 150px;
+  height: 40px;
+  border-radius: 1px;
+  font-weight: bold;
+  background-color: #8bb7a2;
+  color: white;
+  border: 1px;
+  cursor: pointer;
+}
+.sec4Right {
+    position: relative;
+left: 74px;
+}
+.image4 {
+  width: 420px;
+  height: 380px;
+}
+/* SECTION 5 */
+.section5{
+    padding-bottom: 150px;
+}
+
+/* SECTION 6 */
+.section6{
+  font-family: "Poppins";
+  padding-bottom: 80px;
+}
+.sec6Top{
+  display: flex;
+  justify-content: space-around;
+}
+.sec6Top h4{
+  font-size: xx-large;
+}
+.sec6Top p{
+  color: #676767;
+  align-self: center;
+  position: relative;
+right: 33px;
+line-height: 1.7;
+}
+.sec6Bottom{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 170px;
+padding-right: 140px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.sec6Bottom img{
+  width:280px;
+}
+.sec6Bottom h3{
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+.sec6Bottom1 p{
+  color: #676767;
+}
+.sec6Butt{
+text-align: center;
+}
+
+/* FOOTER */
+.footer{
+  background-color: #10181d;
+  background-color: #10181d;
+padding: 65px 120px 90px 120px;
+color: white;
+}
+.footerTop{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 27px;
+border-bottom: 1px solid gray;
+}
+.footerImage{
+width: 140px;
+}
+.footerTopLists{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 8px;
+  align-items: center;
+}
+.footerTopList{
+  width: 43px;
+height: 41px;
+  list-style-type: none;
+  border-radius: 21px;
+background: rgba(255, 255, 255, 0.1);
+}
+.footerTopList i{
+color: white;
+text-align: end;
+position: relative;
+top: 11px;
+left: 13px;
+}
+.footerBottom{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  padding-top:55px;
+}
+.footerParts{
+  display: grid;
+  grid-row-gap: 12px;
+}
+.footerLists{
+  color: #7d8184;
+  padding-bottom: 12px;
+font-size: small;
+}
+.footerList{
+  list-style-type: none;
+  padding-bottom: 12px;
+font-size: small;
+}
