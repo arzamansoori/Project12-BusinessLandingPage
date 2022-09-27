@@ -1,7 +1,7 @@
 ![Badge1](https://img.shields.io/badge/Project12-BusinessLandingPage-D75281)
 
 Hi, I am *Arza Mansoori*.<br>
-*This project is a part of ***Full Stack Javascript*** course by iNeuron.*
+*This project is based on pure HTML and CSS. Also, a part of my learnings. This is a responsive project.*
 
 ***Learnings :***<br>
 *I learned about how to add custom fonts from other sites in CSS file.*
